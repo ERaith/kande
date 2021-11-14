@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kande/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/kande/static/js/main.141e58bf.chunk.js",
+    "main.js.map": "/kande/static/js/main.141e58bf.chunk.js.map",
+    "runtime-main.js": "/kande/static/js/runtime-main.b4af1f44.js",
+    "runtime-main.js.map": "/kande/static/js/runtime-main.b4af1f44.js.map",
+    "static/js/2.496dceff.chunk.js": "/kande/static/js/2.496dceff.chunk.js",
+    "static/js/2.496dceff.chunk.js.map": "/kande/static/js/2.496dceff.chunk.js.map",
+    "static/js/3.670f1393.chunk.js": "/kande/static/js/3.670f1393.chunk.js",
+    "static/js/3.670f1393.chunk.js.map": "/kande/static/js/3.670f1393.chunk.js.map",
+    "index.html": "/kande/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/kande/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.496dceff.chunk.js.LICENSE.txt": "/kande/static/js/2.496dceff.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/kande/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4af1f44.js",
+    "static/js/2.496dceff.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.141e58bf.chunk.js"
+  ]
+}
