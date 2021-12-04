@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef86baab0690576420b9f51899a54e32",
+    "revision": "707d09d0caa088b60157fc46a554078f",
     "url": "/index.html"
   },
   {
-    "revision": "d21020259bc9958e796c",
+    "revision": "0e3449563ee78df51bab",
     "url": "/static/css/main.f0d6ce29.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c0110f0f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d21020259bc9958e796c",
-    "url": "/static/js/main.771429f1.chunk.js"
+    "revision": "0e3449563ee78df51bab",
+    "url": "/static/js/main.f4e40110.chunk.js"
   },
   {
     "revision": "68d49925bd3225fd6a56",
@@ -70,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e04d2928cfcb1f0c174216c96f984dd2",
     "url": "/static/media/thailand.e684b6b3.jpg"
+  },
+  {
+    "revision": "dfafe2233f10bd0334a0c843f8ba45bc",
+    "url": "/static/media/wedding-rings.13fd532a.jpg"
   }
 ]);
