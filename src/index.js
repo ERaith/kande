@@ -1,16 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './sass/application.scss'
+import './sass/App.scss'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom';
-
 ReactDOM.render(
-  <BrowserRouter>
-    <React.Fragment>
-      <App />
-    </React.Fragment>
-  </BrowserRouter>,
+      <App />,
   document.getElementById('root')
 );
 

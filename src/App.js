@@ -1,24 +1,25 @@
 import React, { Component } from "react";
-import Projects from "./components/Projects";
-import Navigation from "./components/Navigation";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Project from "./components/Project";
-import "./App.scss";
-import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
-export default class App extends Component {
-  render() {
-    return (
-      <HashRouter basename = "/">
-        <Route path="/" component={Navigation}/>
-        {/* <Route exact path="/" component={Hero}/> */}
-        <Route exact path="/" component={About}/>
-        <Route exact path="/" component={Projects}/>
-        <Route exact path="/projects/:id" component={Project}/>
-        <Route path="/" component={Footer}/>
+import Hero from "./components/Hero"
+import "./sass/App.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import TabPanel from './components/Navigation';
+import MenuPopupState from './components/NavigationSmall';
+import useWindowSize from "./utils/useWindowSize";
 
-      </HashRouter>
+export default function App() {
+  const {width} = useWindowSize();
+    return (
+      <Router>
+        {/* {width <800 && (
+          <Route exact path="/" component={MenuPopupState}/>
+          )} */}
+        {/* {width >800 && ( */}
+          <Route exact path="/" component={TabPanel}/>
+          {/* )} */}
+
+        <Route exact path="/" component={Hero}/>
+
+      </Router>
     );
-  }
+  
 }
