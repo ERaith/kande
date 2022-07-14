@@ -145,15 +145,19 @@ export const EventLocation = () => {
                     </Grid>
                     <Grid item xs={12} md={12}>
                         <Item>
-                            <b>Timeline: Wedding start time: </b>TBD
+                            <b>Wedding Timeline:</b>
                             <br />
-                            <b>Cocktail hour: </b>TBD
+                            <b>4:30 PM </b>Guests Welcome
                             <br />
-                            <b>Dinner: </b>TBD
+                            <b>5:00 PM </b>Ceremony Start Time
                             <br />
-                            <b>Dancing: </b>TBD
+                            <b>5:30PM  </b>Cocktail hour
                             <br />
-                            <b>End time:</b> 11:00 PM
+                            <b>7:00PM  </b>Dinner
+                            <br />
+                            <b>8:05PM  </b>Dancing
+                            <br />
+                            <b>11:00PM  </b>Event Ends
                             <br />
                         </Item>
                     </Grid>
